@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+    <!-- form group -->
+    <div class="form-wrap">
+        <h1>
+            Sign Up
+        </h1>
+        <p>It's free and takes up one minute</p>
+        <!-- form start -->
+        <form>
+            <!-- form group start -->
+            <div class="form-group">
+                <label class="is-required" for="fname">First Name</label>
+                <input  type="text" id="fname" name="firstname" required>
+            </div>
+            <div class="form-group">
+                <label class="is-required" for="lname">Last Name</label>
+                <input  type="text" id="lname" name="lastname" required>
+            </div>
+            <div class="form-group">
+                <label class="is-required" for="email">Email</label>
+                <input type="email" id="email" name="Email" required>
+            </div>
+            <div class="form-group">
+                <label class="is-required" for="pswd">Password</label>
+                <input  type="password" id="pswd" name="password" required>
+            </div>
+            <div class="form-group">
+                <label class="is-required" for="cpswd">Confirm Password</label>
+                <input type="password" id="cpswd" name="cpswd" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>By clicking the signup button you agree to our <a href="">Terms & condition</a> and <a href="">Privacy Policy</a></p>
+            <!-- form group end -->
+            <!-- form end -->
+        </form>
+    </div>
+    <footer>
+        <p>Already have an account? <a href="login.html">Login Here</a></p>
+    </footer>
+</div>
+</body>
+</html>
